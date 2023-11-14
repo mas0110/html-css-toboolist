@@ -13,8 +13,10 @@ main{
     width: 60%;
     padding:10px;
     padding-inline: 40px;
-    margin-top: 50px;
-    border-radius: 10px;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 header{
     background-color: white;
@@ -23,10 +25,11 @@ header{
 button{
     color: white;
     border: none;
-    border-radius: 6px; 
+    border-radius: 8px; 
     padding: 10px;
     min-height: 30px; 
     min-width: 80px;
+    margin-bottom: 15px;
 }
 
 #tasto1{
@@ -35,14 +38,9 @@ button{
     margin-left: 10px;
 }
 #tasto2{
-    background-color: white;
+    background-color: whitesmoke;
     color: lightgray;
-    border: 10px; 
     
-}
-
-li{
-    list-style: none;
 }
 
 .cross{
@@ -52,6 +50,7 @@ li{
 .check{
     color: green;
     font-size: 25px;
+
 }
 .triangolo{
     font-size: 10px;
@@ -61,5 +60,54 @@ li{
 }
 h1{
     display: inline;
+}
     
+.icona{
+    
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    height: 20px; 
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px; 
+    font-size:x-small;   
+
+
+}
+.azzurro{
+    background-color: deepskyblue;
+}
+
+.viola{
+    background-color: blueviolet;
+}
+
+.verde{
+    background-color: lightseagreen;
+}
+
+.arancione{
+    background-color: orange;
+}
+
+.rosa{
+     background-color: fuchsia;
+}
+li{
+    list-style: none;
+    margin: 8px;
+    margin-left: -35px;
+}
+#nav{
+    background-color: white;
+    width: 60%;
+    padding-inline: 20%;
+    margin:0 auto;
+    margin-top: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    
+
 }
