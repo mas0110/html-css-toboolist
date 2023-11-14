@@ -22,7 +22,7 @@ header{
     background-color: white;
 }
 
-button{
+.button{
     color: white;
     border: none;
     border-radius: 8px; 
@@ -30,14 +30,17 @@ button{
     min-height: 30px; 
     min-width: 80px;
     margin-bottom: 15px;
+    position:relative;
+    left: 50px;
+
 }
 
-#tasto1{
+.tasto1{
     background-color: deepskyblue;
     color: white;
     margin-left: 10px;
 }
-#tasto2{
+.tasto2{
     background-color: whitesmoke;
     color: lightgray;
     
@@ -102,12 +105,9 @@ li{
 #nav{
     background-color: white;
     width: 60%;
-    padding-inline: 20%;
     margin:0 auto;
-    margin-top: 10px;
+    margin-top: 40px;
     border-top-left-radius:10px ;
     border-top-right-radius: 10px;
     padding-top: 10px;
-    
-
 }
