@@ -56,3 +56,10 @@ li{
 .triangolo{
     font-size: 10px;
 }
+#logo{
+    vertical-align:middle;
+}
+h1{
+    display: inline;
+    
+}
