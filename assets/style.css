@@ -4,17 +4,24 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: whitesmoke;
+}
 main{
-    background-color: lightgrey;
+    background-color: white;
     margin: 0 auto;
     width: 60%;
     padding:10px;
-    padding-inline: 10px;
+    padding-inline: 40px;
+    margin-top: 50px;
+}
+header{
+    background-color: white;
 }
 
 button{
     color: white;
-    border: lightgray; 
+    border: none;
     border-radius: 6px; 
     padding: 10px;
     min-height: 30px; 
@@ -29,4 +36,10 @@ button{
 #tasto2{
     background-color: white;
     color: lightgray;
+    border: 10px; 
+    
+}
+section{
+    margin:inherit;
+    padding:inherit;
 }
