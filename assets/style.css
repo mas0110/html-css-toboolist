@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    background-color: lightgrey;
+    margin: 0 auto;
+    width: 60%;
+    padding:10px;
+    padding-inline: 10px;
+}
+
+button{
+    color: white;
+    border: lightgray; 
+    border-radius: 6px; 
+    padding: 10px;
+    min-height: 30px; 
+    min-width: 80px;
+}
+
+#tasto1{
+    background-color: deepskyblue;
+    color: white;
+    margin-left: 10px;
+}
+#tasto2{
+    background-color: white;
+    color: lightgray;
+}
